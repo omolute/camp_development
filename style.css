@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", Sans-serif;
+    font-size: 1rem;
+}
+header{
+    padding: 10px 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header > img{
+    width: 20%;
+}
+header >  div{
+    display: flex;
+    gap: 15px;
+    width: 70%;
+}
+header a{
+    letter-spacing: 0.5px;
+    font-size: 10px;
+}
+header a:hover{
+    color: rgb(250, 61, 4);
+}
+header > a{
+    background-color: #24B6D5;
+    padding: 10px 14px;
+    color: white;
+    border-radius: 3px;
+}
+header >  a:hover{
+    color: white;
+    background-color: #104652;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+.yt_video{
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    max-width: 100%;
+  }
+.yt_video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+.series{
+    background-image: url(./images/camp-ban-2.jpg);
+    background-size: cover;
+    display: flex;
+}
+.series > div, .series_2 >div{
+    width: 50%;
+}
+.series > div:nth-of-type(2),  .series_2 > div:nth-of-type(1){
+    background-color: white;
+    padding: 70px;
+}
+.series_text > h2, .series_text > h1{
+    font-size: 23px;
+    line-height: 37px;
+    font-weight: 500;
+}
+.series_text > p{
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 1.8em;
+}
+.series_text >  ol{
+    font-size: 15px;
+    margin-left: 10%;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.series_2{
+    background-image: url(./images/camp-ban-5.jpg);
+    background-size:auto;
+    display: flex;
+    background-position: -1300px;
+}
+.give{
+    display: flex;
+    gap: 100px;
+    padding: 50px 150px;
+    background-color: #3397CEFC;
+}
+.give > img{
+    width: 50%;
+}
+.give h1{
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 37px;
+    margin-bottom: 50px;
+}
+.give a{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 24px;
+    color: white;
+    text-align: center;
+    background-color: #61CE70;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: all .3s ease;
+    font-size: 15px;
+}
+.give a:hover{
+    background-color: rgb(12, 12, 49);
+    scale: 5%;
+}
+.details{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    background-color: #192744;
+    color: #BDD1EE;
+}
+.details_logo img{
+    width: 120%;
+    height: fit-content;
+}
+.details_logo{
+    width: 20%;
+    font-size: 13px;
+    line-height: 27px;
+}
+.details_links{
+    display: flex;
+    flex-direction: column;
+}
+.details_links a{
+    line-height: 3em;
+    color: #BDD1EE;
+    font-size: 13px;
+}
+.details_info > div{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.details_info svg{
+    width: 5%;
+    height: fit-content;
+    fill: #31C9FC;
+}
+.third svg{
+    transform: scaleX(-1);
+}
+.details_info{
+    width: 25%;
+}
+.details iframe{
+    height: 100%;
+    width: fit-content;
+}
+footer{
+    padding: 20px;
+    color: #717374;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    background-color: #1F2B44;
+}
